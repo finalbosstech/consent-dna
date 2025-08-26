@@ -1,4 +1,4 @@
-import prisma from '@/lib/db';
+import prisma from '../../../lib/db';
 
 export async function logBeacon(d:{userId:string;endpoint:string;status:string;cdtHash?:string;meta?:any}) {
   try { 
