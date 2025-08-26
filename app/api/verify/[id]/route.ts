@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import prisma from '../../../../ib/db';
+import prisma from '../../../ib/db';
 export const runtime = 'nodejs';
 
 type Params = { params: { id: string } };
